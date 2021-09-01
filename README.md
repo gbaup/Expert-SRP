@@ -16,8 +16,7 @@ Para la entrega de la tarea se pide:
             
         Repo Expert y SRP        
         ├── Ejercicio 1
-        ├── Ejercicio 2
-        └── Ejercicio 3
+        └── Ejercicio 2
 3. Cada parte del ejercicio debe ir en su correspondiente rama
 
     > Ejemplo: Si se nos pide críticar el ejercicio 1 en base a los patrónes y principios; Creamos una rama con el nombre por ejemplo "ejercicio1-justificación"
