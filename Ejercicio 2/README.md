@@ -4,20 +4,23 @@
 ## Facultad de Ingeniería y Tecnologías
 ### Programación II
 
-## Parte 1 
-La Biblioteca de la Universidad Católica está desarrollando un sistema para la gestión de sus libros. Se ha modelado la clase "Libro" para representar toda la información que se requiere conocer. Obrservando dicha clase, critica la misma en base al principio [SRP](https://blog.cleancoder.com/uncle-bob/2014/05/08/SingleReponsibilityPrinciple.html)
+### Sistema de consultas médicas
 
-Agrega comentarios si crees que se cumple o no el principio. Recuerda que puedes agregar comentarios de la siguiente forma:
-```csharp
-// esto es un comentario de línea
+Como desarrolladores de software, se nos pide hacer el mantenimiento de un sistema de gestión médica,
+especifícamente se nos pide que hagamos mantenimiento de la funcionalidad de coordinación de consultas. Para ello debemos tener en cuenta que:
+1. Se podrían agregar otros datos del paciente como por ejemplo su edad.
+2. Se podrían agregar otros datos al Doctor como por ejemplo su especialidad.
+3. La consulta debe tener un identificador único
+4. Cada dato que se ingrese al sistema debe ser válidado.
 
-/*
-Esto es un comentario
-de bloque. 
-Permite comentar
-más de una línea de código
-*/
-```
+Para el ejercicio se pide
 
-## Parte 2
-Realiza todas las modificaciones que creas necesarias para que el código cumpla con el principio SRP y haz entrega del código en la tarea correspondiente de Webasignatura.
+#### ✍ Parte 1 
+**Criticar el código dado en base a patrónes y principios**
+
+#### 🧐 Parte 2 
+**Realizar las CRC correspondientes.**
+
+#### 👩‍💻 Parte 3
+**Aplique patrónes/principios según su crítica.**
+

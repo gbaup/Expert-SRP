@@ -1,17 +1,17 @@
 ﻿using System;
+using Library;
 
-namespace SRP
+namespace Program
 {
-    
     class Program
     {
         static void Main(string[] args)
         {
-            Libro libro1 = new Libro("Design Patterns","Erich Gamma & Others","001-034");
-            Libro libro2 = new Libro("Pro C#","Troelsen","001-035");
-            libro1.AlmacenarLibro("A","7");
-            libro2.AlmacenarLibro("B","3");
+            string appointmentResult = AppointmentService.CreateAppointment("Steven Jhonson", "986782342", "5555-555-555", DateTime.Now, "Wall Street", "Armand");
+            Console.WriteLine(appointmentResult);
 
+            string appointmentResult2 = AppointmentService.CreateAppointment("Ralf Manson", "", "5555-555-555", DateTime.Now, "Queen Street", "");
+            Console.WriteLine(appointmentResult2);
         }
     }
 }
