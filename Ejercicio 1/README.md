@@ -20,4 +20,4 @@ más de una línea de código
 ```
 
 ## Parte 2
-Realiza todas las modificaciones que creas necesarias para que el código cumpla con el principio SRP y haz entrega del código en la tarea correspondiente de Webasignatura.
+Realiza todas las modificaciones que creas necesarias para que el código cumpla con el principio SRP.
