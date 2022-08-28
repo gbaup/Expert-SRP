@@ -12,38 +12,38 @@ namespace Library
 
             if (string.IsNullOrEmpty(name))
             {
-                stringBuilder.Append("Unable to schedule appointment, Name is required\n");
+                stringBuilder.Append("Unable to schedule appointment, 'name' is required\n");
                 isValid = false;
             }
 
             if (string.IsNullOrEmpty(id))
             {
-                stringBuilder.Append("Unable to schedule appointment, id is required\n");
+                stringBuilder.Append("Unable to schedule appointment, 'id' is required\n");
                 isValid = false;
             }
 
             if (string.IsNullOrEmpty(phoneNumber))
             {
-                stringBuilder.Append("Unable to schedule appointment, Phone number is required\n");
+                stringBuilder.Append("Unable to schedule appointment, 'phone number' is required\n");
                 isValid = false;
             }
 
             if (string.IsNullOrEmpty(appoinmentPlace))
             {
-                stringBuilder.Append("Unable to schedule appointment, Appoinment place is required\n");
+                stringBuilder.Append("Unable to schedule appointment, 'appoinment place' is required\n");
                 isValid = false;
             }
 
-            
+
             if (string.IsNullOrEmpty(doctorName))
             {
-                stringBuilder.Append("Unable to schedule appointment, Doctor name is required\n");
+                stringBuilder.Append("Unable to schedule appointment, 'doctor name' is required\n");
                 isValid = false;
             }
 
             if (isValid)
             {
-                stringBuilder.Append("Appoinment Scheduled");
+                stringBuilder.Append("Appoinment scheduled");
             }
 
             return stringBuilder.ToString();

@@ -2,26 +2,26 @@
 
 namespace SRP
 {
-    public class Libro
+    public class Book
     {
 
-        public string Titulo { get ; }
-        public string Autor { get ; }
-        public string Codigo { get ;  }
-        public string SectorBiblioteca { get ; set; }
-        public string EstanteBiblioteca { get ; set; }
+        public string Title { get ; }
+        public string Author { get ; }
+        public string Code { get ;  }
+        public string LibrarySector { get ; set; }
+        public string LibraryShelve { get ; set; }
 
-        public Libro(String titulo, String autor, String codigo)
+        public Book(String title, String author, String code)
         {
-            this.Titulo = titulo;
-            this.Autor = autor;
-            this.Codigo = codigo;
+            this.Title = title;
+            this.Author = author;
+            this.Code = code;
         }
 
-        public void AlmacenarLibro(String sector, String estante)
+        public void ShelveBook(String sector, String shelve)
         {
-            this.SectorBiblioteca = sector;
-            this.EstanteBiblioteca = estante;
+            this.LibrarySector = sector;
+            this.LibraryShelve = shelve;
         }
 
     }

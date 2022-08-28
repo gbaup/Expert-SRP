@@ -2,15 +2,15 @@
 
 namespace SRP
 {
-    
+
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
-            Libro libro1 = new Libro("Design Patterns","Erich Gamma & Others","001-034");
-            Libro libro2 = new Libro("Pro C#","Troelsen","001-035");
-            libro1.AlmacenarLibro("A","7");
-            libro2.AlmacenarLibro("B","3");
+            Book book1 = new Book("Design Patterns","Erich Gamma & Others","001-034");
+            Book book2 = new Book("Pro C#","Troelsen","001-035");
+            book1.ShelveBook("A","7");
+            book2.ShelveBook("B","3");
 
         }
     }
